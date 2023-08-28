@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#colorName {
+  color: #007bff;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform 0.3s ease;
+}
+
+.box.active {
+  transform: scale(1.2);
+}
+
+.centered {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.centered:hover {
+  /* Adicione alguma estilização extra para quando o botão estiver sob o cursor */
+  background-color: #e74c3c;
+}
